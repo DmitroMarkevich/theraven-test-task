@@ -36,7 +36,7 @@ public class Customer {
     /*
      * Field for the soft deletion.
      *
-     * When a customer is deleted, this field is set to true
+     * When a customer is deleted, this field is set to false
      * to mark the record as logically deleted,
      * preserving it in the database for future reference. (recovery)
      */
