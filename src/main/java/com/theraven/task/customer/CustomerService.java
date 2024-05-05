@@ -133,7 +133,7 @@ public class CustomerService {
         });
 
         existingCustomer.setActive(false);
-        customerRepository.delete(existingCustomer);
+        customerRepository.save(existingCustomer);
         log.info("Customer with ID {} deleted", id);
     }
 }
